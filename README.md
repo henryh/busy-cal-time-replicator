@@ -1,4 +1,4 @@
-# BusyCal Time Replicator
+# Busy Cal Time Replicator
 
 Simple script that mirrors busy time from all connected calendars into your
 primary calendar using "Busy" placeholders.
@@ -9,15 +9,12 @@ your availability even when you have multiple calendars.
 ## Quick Start (no programming)
 
 1. Open https://script.google.com and create **New project**.
-2. Rename the project (example: "BusyCal Time Replicator").
-3. Open `Code.gs` in this repo, copy all contents, and paste into the editor.
-4. Click **Services** (left sidebar) -> **+** -> enable **Calendar API**.
-5. Click **Project Settings** -> make sure it is linked to a Google Cloud Project.
-6. Open that Cloud Project in **Google Cloud Console** and enable **Google Calendar API**.
+2. Rename the project (example: "Busy Cal Time Replicator").
+3. Open `Code.gs` in this [repo](https://github.com/henryh/busy-cal-time-replicator/blob/main/Code.gs), copy all contents, and paste into the editor.
+4. Click plus in the **Services** tab (left sidebar) and enable **Google Calendar API** with default params.
 7. Save the project.
-8. Run `init()` once (top dropdown) and approve permissions.
-
-That is it. The script will sync every 10 minutes automatically.
+8. Run `init()` once (top dropdown) and approve permissions and add exception. That is it. The script will sync every 10 minutes automatically.
+9. In 10 minutes check the script runs successfully on the **Executions** tab (left sidebar) and busy events are visible in Calendar.
 
 ## What you will see
 
