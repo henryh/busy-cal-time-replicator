@@ -6,7 +6,7 @@ primary calendar using "Busy" placeholders.
 This helps BusyCal (or other calendar tools) show a single, accurate view of
 your availability even when you have multiple calendars.
 
-## Quick Start (no programming)
+## Quick Start (for use)
 
 1. Open https://script.google.com and create **New project**.
 2. Rename the project (example: "Busy Cal Time Replicator").
@@ -73,10 +73,6 @@ your availability even when you have multiple calendars.
    - Click **Project Settings** -> ensure it is linked to a Google Cloud Project.
    - Open that Cloud Project in **Google Cloud Console** and enable **Google Calendar API**.
 7. In Apps Script UI, run `init()` once and accept permissions.
-
-## Install (manual, no CLI)
-
-See "Quick Start (no programming)" above.
 
 ## Permissions (what to approve)
 
