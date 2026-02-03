@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+changed_files="$(git diff --cached --name-only --diff-filter=ACM)"
+
+if printf "%s\n" "$changed_files" | grep -Eq "^tasks/(active|done)\\.json$"; then
+  echo "Validating tasks JSON..."
+  node scripts/validate-tasks-json.mjs
+fi

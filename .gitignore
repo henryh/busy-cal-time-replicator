@@ -1,0 +1,7 @@
+node_modules/
+tasks/
+.clasp.json
+.idea/
+.DS_Store
+npm-debug.log*
+yarn-error.log*

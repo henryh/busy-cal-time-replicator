@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Keep the Git hook entrypoint named pre-commit; delegate to the tasks validator.
+"$(dirname "$0")/pre-commit.tasks-validator"
