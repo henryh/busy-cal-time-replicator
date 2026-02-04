@@ -74,6 +74,8 @@ your availability even when you have multiple calendars.
    - Open that Cloud Project in **Google Cloud Console** and enable **Google Calendar API**.
 7. In Apps Script UI, run `init()` once and accept permissions.
 
+For local development and debugging via `clasp`, you must enable the Apps Script API for your Google account first. `https://script.google.com/home/usersettings`
+
 ## Permissions (what to approve)
 
 The script needs access to:
