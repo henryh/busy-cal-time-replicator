@@ -485,6 +485,10 @@ function buildBusyPlaceholderPayload(sourceCalId, event, fingerprint) {
     start: event.start,
     end: event.end,
     attendees: [],
+    reminders: {
+      useDefault: false,
+      overrides: [],
+    },
     description: buildBusyDescription(event),
     extendedProperties: {
       private: {
